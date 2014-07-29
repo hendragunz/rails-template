@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.1'
 
 gem 'rails', '4.1.4'
 
@@ -18,7 +18,7 @@ gem 'turbolinks'
 # other
 gem 'mongoid'
 gem 'devise'
-gem 'simple_form'
+gem 'simple_form', '~> 3.1.0.rc2'
 
 group :development, :test do
   # logger
